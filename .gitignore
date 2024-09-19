@@ -80,3 +80,5 @@ test/o-*
 .vs
 cmake-build*
 build*
+/.zig-cache
+/zig-out

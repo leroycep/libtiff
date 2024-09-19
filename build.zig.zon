@@ -1,0 +1,17 @@
+.{
+    .name = "libtiff",
+    .version = "4.7.0",
+    .dependencies = .{
+        .libz = .{
+            .url = "https://github.com/andrewrk/libz/archive/293a98a22fa592a6703a5663ab515bd1312ca6c8.tar.gz",
+            .hash = "12200d3858388c9f74ef769cab3762cfddb4aee33133a5e08c96ee68130b2664f13a",
+        },
+        .zstd = .{
+            .url = "https://github.com/leroycep/zstd/archive/450c282c05a8fb728befc27e8b7c31f00f97d517.tar.gz",
+            .hash = "1220c88271a499bf5b9b3912e03777ee6d83a43e6b6a5a0e53f8ddf5f5159f5b267f",
+        },
+    },
+    .paths = .{
+        "",
+    },
+}
